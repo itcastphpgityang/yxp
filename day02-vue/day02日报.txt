@@ -1,0 +1,27 @@
+今日学习目标：学习Vue；了解Vue的概念Vue是一个MVVM模式的前端框架，
+实现了数据双向绑定、组件化、视图、数据和结构的分离，运行速度快。
+
+熟练掌握Vue的生命周期8种，
+beforeCreate--创建前：
+created--创建后:
+beforeMount--挂载前：
+mounted--挂载后： 
+beforeUpdate--更新前：
+updated--更新后： 
+beforeDestory销毁前-
+destoryed--销毁后:
+
+以及熟练操作Vue的指令；
+3、v-model：数据双休绑定到dom元素
+4、v-on:事件名 v-on:可以简写
+5、v-for: 遍历
+6、v-if、v-else-if、v-else 条件判断指令,必须挨着，中间不能有其它dom元素
+7、
+v-bind:（绑定属性） 绑定属性 动态切换样式语法
+v-bind: 可以直接写 :class="{样式名:变量}"
+
+8、计算属性
+vue实例属性computed ： 计算属性，里面还是一些方法。 
+9、监视属性
+vue实例属性 watch: 监视数据模型是否发生变化，可以获取变化前后的值 
+10父子组件之间的传值通信等。
