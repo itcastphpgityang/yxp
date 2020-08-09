@@ -1,0 +1,65 @@
+今日学习内容：
+上午：
+Linus操作系统：
+1.Linus系统介绍
+2.优缺点的比较
+3.VM的介绍
+4.VM的安装和卸载
+
+5.常用命令：
+查看ip地址：ifconfig
+创建文件夹：mkdir 文件夹名称
+查看当前目录下有多少文件和文件夹：ll ls
+进入文件夹：cd 文件夹
+
+退出当前文件夹：cd ..
+touch：创建文件
+rm: 删除（文件的文件内容必须是空的才可以删除）    rm -rf :强制暴力的递归删除所有
+
+cat 查看
+cat a.txt | grep abc  查看文件并按照关键字过滤
+echo > 向文件输入内容（覆盖）
+echo >> 向文件输入内容（追加）
+
+mv 移动 给文件重命名 如果文件夹是空的，那么文件夹将丢失
+tail -200f 文件名  动态数据文件最后200行内容
+
+cp  复制 不能复制文件夹，只能复制文件
+
+下午操作学习内容：
+安装软件xme...
+vi /  vim 的命令
+
+vi  文件名 （打开文件进入命令行模式）
+i(点一次键盘上的i) 进入编辑模式进行编辑
+esc 编辑后退出编辑模式进入命令行模式
+执行命令：shift+: 开始输入命令  q! 强制退出   
+命令行模式删除一行: dd 命令(点两次键盘上的d)
+
+shift+zz 保存退出
+:wq保存并退出
+
+vi查关键字
+vi打开文件后，shift+: 在命令行下输入“/关键字”
+
+tail -200f 文件夹名 （动态输入tomcat日志）
+
+tail -300f logs/catalina.out |grep logController（动态输入tomcat日志 筛选）
+
+进入tomcat/bin/
+启动./start.sh 
+停止./shutdown.sh 
+
+ps -ef|grep tomcat(java) 查看tomcat进程pid
+
+ps aux 查看所有进程号
+
+| 管道命令
+杀死进程  kill -9 pid
+
+解压缩
+tar -xzvf  压缩包名
+
+tar -czvf test.tar.gz test   //压缩 test文件为test.tar.gz
+
+tar -zxvf 压缩包名
